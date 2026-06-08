@@ -1,0 +1,60 @@
+/* Flight Search Page Component Styles */
+
+.flight-search-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+.search-section {
+  margin-bottom: 3rem;
+}
+
+.results-section {
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .flight-search-page {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flight-search-page {
+    padding: 0;
+  }
+
+  .page-header {
+    margin-bottom: 2rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .page-header p {
+    font-size: 1rem;
+  }
+
+  .search-section {
+    margin-bottom: 2rem;
+  }
+}
